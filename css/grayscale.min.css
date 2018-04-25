@@ -38,12 +38,12 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    color: #42dca3
+    color: #0090ff
 }
 
 a:focus, a:hover {
     text-decoration: none;
-    color: #1d9b6c
+    color: #00b0ff
 }
 
 #mainNav {
@@ -216,16 +216,16 @@ a:focus, a:hover {
 }
 
 .btn-default {
-    color: #42dca3;
-    border: 1px solid #42dca3;
+    color: #FFF;
+    border: 1px solid #FFF;
     background-color: transparent
 }
 
 .btn-default:focus, .btn-default:hover {
     color: #000;
-    border: 1px solid #42dca3;
+    border: 1px solid #fff;
     outline: 0;
-    background-color: #42dca3
+    background-color: #fff
 }
 
 ul.banner-social-buttons {
