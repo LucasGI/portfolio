@@ -1,16 +1,35 @@
-$(document).ready(function() {
-    $.ajax({
-        type: "POST",
-        url: "https://andruxnet-random-famous-quotes.p.mashape.com/?cat=famous",
-        dataType: "json",
-        success: function (response) {
-            console.log(response);
-        },
-        beforeSend: setHeader
-    });
-     function setHeader(xhr) {
-        xhr.setRequestHeader("X-Mashape-Key", "[myMashapeAPIkey]");
-        xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-        xhr.setRequestHeader("Accept", "application/json");
- }
-})
+$(document).ready(function(){
+    timer();
+    var interval = setInterval(function () { timer(); }, 30000);
+    function timer () {
+        var quote = $('#quote').text();
+        var quoteGenius = $('#name').text();
+        var sourceLength = quoteSource.length;
+        var randomNumber= Math.floor(Math.random()*sourceLength);
+        for(i=0;i<=sourceLength;i+=1){
+        var newQuoteText = quoteSource[randomNumber].quote;
+        var newQuoteGenius = quoteSource[randomNumber].name;
+  var timeAnimationIn = 500;
+  var timeAnimationOut = 5000;
+  var quoteContainer = $('#quote');
+  quoteContainer.fadeOut(timeAnimationIn, function(){
+    quoteContainer.html('');
+            quoteContainer.append('<p>'+newQuoteText+'</p>'+'<p id="name">'+'-'+newQuoteGenius+'</p>');
+    quoteContainer.fadeIn(timeAnimationOut);
+  });   
+        break;
+    };
+    }
+    
+    // var clock = new FlipClock($('.clock'), {
+    //     clockFace: 'MinuteCounter',
+    //     countDown: true,
+    //     onStart: function() {
+    //         console.log("Started!")
+    //     },
+    //     onStop: function() {
+    //         console.log("done!")
+    //     },
+
+    // });
+});

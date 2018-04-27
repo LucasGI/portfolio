@@ -179,7 +179,10 @@ a:focus, a:hover {
     padding-top: 150px;
     padding-bottom: 150px
 }
-
+.content-section-small {
+    padding-top: 80px;
+     padding-bottom: 80px
+}
 .download-section {
     color: #fff;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
@@ -306,4 +309,22 @@ img::-moz-selection {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
+}
+div.helvetica {
+    font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 0
+}
+.quote {
+    font-family: Cabin, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 0
 }
