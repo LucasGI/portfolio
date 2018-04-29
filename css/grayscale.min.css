@@ -328,3 +328,7 @@ div.helvetica {
     text-transform: uppercase;
     border-radius: 0
 }
+.quote-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

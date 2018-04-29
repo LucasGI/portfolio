@@ -1,0 +1,11 @@
+.quote {
+    text-transform: uppercase;
+}
+.name {
+    text-transform: capitalize;
+}
+.container-default {
+    margin: 0 auto;
+    max-width:1280px;
+    width:90%;
+}
