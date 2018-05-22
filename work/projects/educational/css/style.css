@@ -1,0 +1,11 @@
+.bg-black {
+    background-color: #000!important
+}
+
+a.bg-black:focus, a.bg-black:hover, button.bg-black:focus, button.bg-black:hover {
+    background-color: #000!important
+}
+.gplay-badge {
+    width: 646px;
+    height: 2506px;
+}

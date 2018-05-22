@@ -12,7 +12,8 @@
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
-  <link href="css/grayscale.min.css" rel="stylesheet">
+  <link href="css/animate.css">
+  <link href="materialize/css/materialize.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -39,17 +40,14 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
+          <lli class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          </lli>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#social">Social</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link">|</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="education/languages.html">Languages</a>
           </li>
         </ul>
       </div>
@@ -63,7 +61,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h1 class="brand-heading">Welcome!</h1>
-            <p class="intro-text">View my portfolio.</p>
+            <p class="intro-text">View My Portfolio.</p>
             <a href="#about" class="btn btn-circle js-scroll-trigger">
               <i class="fa fa-angle-double-down animated"></i>
             </a>
@@ -99,7 +97,7 @@
         <h2>My Work</h2>
         <p>Explore all of my work and projects. </p>
         <a href="work/professional.html" class="btn btn-default btn-lg">Professional Work</a>
-        <a href="work/education.html" class="btn btn-default btn-lg">Educational Work</a>
+        <a href="work/educational.html" class="btn btn-default btn-lg">Educational Work</a>
         <a href="work/personal.html" class="btn btn-default btn-lg">Personal Work</a>
       </div>
     </div>
@@ -111,6 +109,16 @@
         <h2>Education and Certifications</h2>
         <p>How I learned what I know.</p>
         <a href="education.html" class="btn btn-default btn-lg">View All</a>
+      </div>
+    </div>
+  </section>
+  <section id="skills" class="skills-section content-section text-center">
+    <div class="container">
+      <div class="col-lg-8 mx-auto">
+        <h2>Professional Skills</h2>
+        <p style="font-size: 28px">Main Skills:</p>
+        <p><span class="skill-list">HTML * CSS * JavaScript * Photoshop * Ilustrator</span></p>
+        <a href="education.html" class="btn btn-default btn-lg">View All Skills</a>
       </div>
     </div>
   </section>
@@ -141,19 +149,13 @@
                 <span class="network-name">Github</span>
               </a>
             </li>
-            <!-- <li class="list-inline-item">
-                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
-                  <i class="fa fa-google-plus fa-fw"></i>
-                  <span class="network-name">Google+</span>
-                </a>
-              </li> -->
           </ul>
         </div>
       </div>
     </div>
   </section>
   <!-- QUOTE SECTION -->
-  <section id="quote" class="content-section-small text-center">
+  <section id="quotes" class="quote-section text-center">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto container-default">
@@ -168,65 +170,71 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h2>Contact Me</h2>
-          <p>Email directly or use the form below.</p>
+          <p>Email me directly at <a href="mailto:jordan.olsen@cosoftstudios.com">jordan.olsen@cosoftstudios.com</a>.</p>
+          <!-- <p>Email directly or use the form below.</p>
           <form id="contact-form" method="post" action="contact.php" role="form">
 
             <div class="messages"></div>
-        
+
             <div class="controls">
-        
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_name">Firstname *</label>
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_lastname">Lastname</label>
-                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" data-error="Lastname is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_name">Firstname *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required"
+                      data-error="Firstname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_email">Email *</label>
-                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="form_phone">Subject *</label>
-                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter the subject of your message *" required="required" data-error="Please enter a subject for your message.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_lastname">Lastname</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname" data-error="Lastname is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="form-group">
-                            <label for="form_message">Message *</label>
-                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <input type="submit" class="btn btn-default btn-send" value="Send message">
-                    </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required"
+                      data-error="Valid email is required.">
+                    <div class="help-block with-errors"></div>
+                  </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-muted"><strong>*</strong> These fields are required.</p>
-                    </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="form_phone">Subject *</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter the subject of your message *"
+                      required="required" data-error="Please enter a subject for your message.">
+                    <div class="help-block with-errors"></div>
+                  </div>
                 </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label for="form_message">Message *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"
+                      data-error="Please,leave us a message."></textarea>
+                    <div class="help-block with-errors"></div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <input type="submit" class="btn btn-default btn-send" value="Send message">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="text-muted">
+                    <strong>*</strong> These fields are required.</p>
+                </div>
+              </div> -->
             </div>
-        
-        </form>
+
+          </form>
         </div>
       </div>
     </div>
@@ -241,22 +249,16 @@
       <p>Copyright &copy; Jordan Olsen 2018</p>
     </div>
   </footer>
-
-  <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALGIiRbc7P9q3IPl-O5JFFwLDJ83j5_NA&sensor=false"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/grayscale.min.js"></script>
+  <script src="js/flipclock.min.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="materialize/js/materialize.min.js"></script>
+  <script src="js/app.js"></script>
 
 </body>
-<script src="js/flipclock.min.js"></script>
-<script src="js/quotes.js"></script>
-<script src="js/app.js"></script>
+
+
 </html>
