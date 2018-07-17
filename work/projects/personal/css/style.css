@@ -9,3 +9,12 @@ a.bg-black:focus, a.bg-black:hover, button.bg-black:focus, button.bg-black:hover
     width: 646px;
     height: 2506px;
 }
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
