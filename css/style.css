@@ -130,8 +130,8 @@ a:focus, a:hover {
     padding: 200px 0;
     text-align: center;
     color: #fff;
-    /* background: url(../img/intro-bg.jpg) no-repeat bottom center scroll; */
-    background: url("https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f64af19374484d1e18a6e79a439cff9d&auto=format&fit=crop&w=2100&q=80") no-repeat bottom center scroll;
+    background: url(../img/img1.jpg) no-repeat center scroll;
+    /* background: url("https://images.unsplash.com/photo-1517134191118-9d595e4c8c2b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f64af19374484d1e18a6e79a439cff9d&auto=format&fit=crop&w=2100&q=80") no-repeat bottom center scroll; */
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -294,7 +294,8 @@ img::-moz-selection {
 
 .work-section {
     color: #fff;
-    background: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e3b92161cef01773ab8e0f83d4da1126&auto=format&fit=crop&w=2100&q=80") no-repeat center center scroll;
+    background: url(../img/work-bg.jpg) no-repeat left center scroll;
+    /* background: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e3b92161cef01773ab8e0f83d4da1126&auto=format&fit=crop&w=2100&q=80") no-repeat center center scroll; */
     background-color: #000;
     -webkit-backgrond-size: cover;
     -moz-background-size: cover;
@@ -365,8 +366,9 @@ div.helvetica {
 }
 .quote-section {
     padding-top: 80px;
-    padding-bottom: 80px;
-    background: url("https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=540f14856de81b9306b3bfc870827fe7&auto=format&fit=crop&w=2100&q=80") no-repeat center center scroll;
+    padding-bottom: auto;
+    background: url(../img/img_quote-bg.jpg) no-repeat scroll;
+    /* background: url("https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=540f14856de81b9306b3bfc870827fe7&auto=format&fit=crop&w=2100&q=80") no-repeat center center scroll; */
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;

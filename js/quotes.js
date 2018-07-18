@@ -120,7 +120,7 @@ var quoteSource=[
         name:"Joe Vitale"
     },
     {
-        quote:"A confort zone is a beautiful place, but nothing ever grows there.",
+        quote:"A comfort zone is a beautiful place, but nothing ever grows there.",
         name:""
     },
     {
