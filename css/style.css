@@ -188,7 +188,7 @@ a:focus, a:hover {
 
 .content-section {
     padding-top: 150px;
-    padding-bottom: 150px
+    padding-bottom: 150px;
 }
 .content-section-small {
     padding-top: 80px;
@@ -211,8 +211,8 @@ a:focus, a:hover {
 
 @media (min-width:992px) {
     .content-section {
-        padding-top: 200px;
-        padding-bottom: 200px
+        padding-top: 100px;
+        padding-bottom: 100px
     }
     #map {
         height: 350px
@@ -374,4 +374,8 @@ div.helvetica {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 20%;
 }
